@@ -1,0 +1,23 @@
+Opdracht 2: Integratie in Jenkins
+
+De PO is onder de indruk van wat het script doet, great job. Het is echter wenselijk
+om de testen als onderdeel van de build-pipeline in te zetten. Daarom word je nu
+gevraagd om je script ook in Jenkins te laten draaien.
+
+1.	Download en installeer Git op je werkstation
+
+2.	Open Jenkins via http://localhost:8080. Je kunt inloggen met gebruikersnaam CloseSure en wachtwoord PAssw0rd!
+
+3.	Stel bij Beheer Jenkins -> Global Tool Configuration het juiste pad naar git.exe in.
+
+4.	Maak vervolgens een nieuw item aan en kies voor “Bouw een vrije stijl type software project”
+
+5.	Kies bij Broncodebeheer (SCM) om je GitHub te downloaden en geef de url naar je repository op
+
+6.	Voeg dan een bouwstap toe (Voer Windows batch commando uit.)
+
+7.	Run nu hetzelfde robot script als wat je lokaal deed, maar benoem nu het hele robot path (C:\Python\Python37\Scripts\robot …)
+
+8.	Sla op en voer de pipeline uit
+
+Als je alles goed gedaan hebt, zou je nu een succesvolle bouwpoging moeten hebben. Zo niet, repareer dan je fouten.

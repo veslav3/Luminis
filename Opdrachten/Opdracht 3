@@ -1,0 +1,25 @@
+Opdracht 3: Interactie met de website
+
+Je gaat nu een drietal zoekacties uitvoeren die, als het goed is, het juiste product
+tonen. Iedere zoekactie moet een eigen testgeval binnen de suite worden.
+
+Tip: Ga na iedere zoekactie weer terug naar de homepage
+
+1.	Maak een nieuwe testsuite “zoekacties uitvoeren.robot” aan (tip, gebruik homepage controles.robot als inspiratie!)
+
+2.	Maak de volgende testgevallen:
+    a.	Zoeken van een spel
+        i.	Open de browser in Chrome in gemaximaliseerd scherm en ga naar bol.com
+        ii.	Zoek naar het spel “Exit escape room”
+        iii.	Controleer of het spel “Exit De Verlaten” gevonden wordt
+
+    b.	Zoeken van laptop
+        i.	Zoek naar het product “Macbook Air”
+        ii.	Controleer of de laptop “Apple Macbook Air (2017)” gevonden wordt
+
+    c.	Zoeken van boek
+        i.	Zoek naar het boek “Oorsprong”
+        ii.	Controleer of het boek “Oorsprong” gevonden wordt
+        iii.	Sluit de browser af
+
+3.	Zorg ervoor dat de rapportage opgeslagen wordt in het mapje “Reports/Opdracht 2”

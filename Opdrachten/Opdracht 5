@@ -1,0 +1,13 @@
+Opdracht 5: Tags
+
+Je wilt in een build-pipeline altijd zo snel mogelijk inzicht hebben in de kwaliteit van de
+software. Daarom is het verstandig om testscripts onder te verdelen in verschillende mappen en te
+werken met tags. Vervolgens kun je Jenkins zo inrichten dat je maar een deel van de testen uitvoert.
+
+1.	Plaats de testsuite voor de homepagina in een nieuwe map home en de testsuite voor het zoeken
+    van producten in een map zoek_producten.
+
+2.	Voeg bij het testscenario van de homepagina en het zoeken van het spel “Exit” de tag “smoketest” toe.
+
+3.	Maak nu twee extra Jenkins jobs. Een waarbij alleen de testen uit de map zoek_producten en een andere
+    job waarbij je alleen testen met de tag “smoketest” uitvoert.

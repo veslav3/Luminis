@@ -1,0 +1,29 @@
+Opdracht 1: Een eerste testscript
+
+Je bent als nieuwe testautomatiseerder aan de slag gegaan voor een project bij bol.com.
+TA is nieuw voor de product owner en hij wil eerst even zien hoe dit werkt. Daarom heeft
+hij je een simpele eerste opdracht gegeven: Hij wil graag zien hoe je een browser kunt
+openen en hoe een rapportage er dan uit komt te zien.
+
+Voor deze eerste opdracht open je de website en controleer je of er een aantal elementen
+op de pagina staan. Deze resultaten moeten in een rapport opgenomen worden.
+
+1.	Fork het project https://github.com/frankvanderkuur/Luminis van Github naar je eigen Github
+
+2.	Download het project naar je eigen Windows instantie via Github Desktop
+
+3.	Open Pycharm en open het project dat je zojuist gedownload hebt
+
+4.	Open het bestand “homepage controles.robot” onder de map “Tests”
+
+5.	Maak met behulp van de Selenium library de volgende acties en controles:
+    a.	Controleer of de volgende teksten op de homepagina staan:
+        i.	Dagdeal
+        ii.	Sinterklaas
+    b.	Controleer of de zoekbox op de pagina getoond wordt.
+
+6.	Sluit de browser weer af d.m.v. het testscript
+
+7.	Zorg ervoor dat de rapportage opgeslagen wordt in het mapje “Reports/Opdracht 1”
+
+8.	Commit en push de wijzigingen naar je eigen Github repository

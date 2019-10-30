@@ -1,0 +1,27 @@
+Opdracht 3: Rapportages in Jenkins
+
+Als je lokaal je scripts draait, kun je heel makkelijk bij je rapportages. Vanuit Jenkins
+is dit nu moeilijker. Er is een plugin voor Jenkins beschikbaar die dit een stuk makkelijker maakt.
+Deze ga je nu inrichten. Daarnaast moet je ook je nieuwe script uitvoeren.
+
+1.	Open Jenkins via http://localhost:8080.
+
+2.	Ga naar Beheer Jenkins en dan naar Beheer plugins. Installeer nu de plugin “Robot Framework”. Start Jenkins aansluitend opnieuw op.
+
+3.	Ga na het opnieuw opstarten opnieuw naar Beheer Jenkins en kies dan voor Scriptconsole.
+
+4.	Voer dan het volgende commando uit:
+    System.setProperty("hudson.model.DirectoryBrowserSupport.CSP","sandbox allow-scripts; default-src 'none'; img-src 'self' data: ; style-src 'self' 'unsafe-inline' data: ; script-src 'self' 'unsafe-inline' 'unsafe-eval' ;")
+
+5.	Open nu je gemaakte item en pas je het eerder ingevoerde commando zo aan dat je alle testen in de map Tests uitvoert.
+
+6.	Configureer vervolgens de “Acties die na de bouwpoging uitgevoerd worden”. Kies hier voor “Publish Robot Framework test results”.
+
+7.	De directory waar de output in gezet is, is de directory die je met de -d flag hebt opgegeven. De thresholds mag je zelf verzinnen kiezen.
+
+8.	Om ook de screenshots te kopiëren klikt je op “Uitgebreid…” en voer je bij “Other files to copy” *.png in.
+
+9.	Voer nu je script opnieuw uit. Je zult zien dat je nu de rapportage ook via Jenkins in kunt zien en dat je meer
+    informatie in je bouwconfiguratie te zien krijgt.
+
+Extra opdracht: Introduceer eens een fout in een van je scripts, commit en push dit en voer dan een nieuwe bouwpoging uit.
